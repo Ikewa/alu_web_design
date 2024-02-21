@@ -1,0 +1,81 @@
+header {
+    position:sticky;
+    z-index: 1000;
+    top: 0;
+    padding: 30px ;
+    text-align: right;
+    background-color: #000101; 
+    font-size: large; 
+    align-items: center;
+    justify-content: center; 
+}
+
+.contact {
+    display: flex;
+    flex: auto;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#contact{
+    background: linear-gradient(90deg, #000101, #fff);
+    padding-top: 20px;
+    border-top: 2px, solid #00A8C5;
+    color: #fff;
+}
+#social{
+    background: linear-gradient(-90deg, #000101, #fff);
+    padding-top: 20px;
+    border-bottom: 2px, solid #fcee21;
+    color: #000101;
+}
+
+.social{
+    display: flex;
+    flex: auto;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+a.social{
+    color: #000101;
+    text-decoration: none;
+}
+a.social:hover{
+    text-decoration: underline;
+}
+a.social1{
+    color: #000101;
+    text-decoration: none;
+}
+a.social1:hover{
+    text-decoration: underline;
+}
+
+h2{
+    display: flex;
+    flex: auto;
+    align-items: center;
+    text-align: center;
+    margin-left: 600px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+body{
+    background: linear-gradient(150deg, #000101, #fff);
+}
+h1{
+    color: #fff;
+}
